@@ -1,6 +1,7 @@
 describe("About Arrays", function() {
 
   //We shall contemplate truth by testing reality, via spec expectations.
+  // Shivani changes
   it("should create arrays", function() {
     var emptyArray = [];
     expect(typeof(emptyArray)).toBe('object'); //A mistake? - http://javascript.crockford.com/remedial.html
